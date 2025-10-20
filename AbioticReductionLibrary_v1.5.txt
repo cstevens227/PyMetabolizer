@@ -1,0 +1,10 @@
+Scheme_name	Reaction_expression	Rank	Selectivity_rule
+Hydrogenolysis	"[#6;A:1][#17,#35,#53]>>[#6;A:1]"	4	
+Vicinal Dehalogenation	"[#17,#35,#53][#6;A:1][#6;A:2][#17,#35,#53]>>[#6;A:1]=[#6;A:2]"	4	
+Nitroaromatic Reduction	"[#8-]-[#7+:1](=O)-[c:2](:[c,n:3]):[c,n:4]>>[#7+0:1]-[c:2](:[c,n:3]):[c,n:4]"	5	
+Aromatic Azo Reduction	"[#6;a:3]-[#7;D2:1]=[#7;D2:2]-[#6;a:4]>>[#7:1]-[#6;a:3].[#7:2]-[#6;a:4]"	4	
+Sulfoxide Reduction	"[#6:2][S;D3:1]([#6:3])=O>>[#6:3]-[#16:1]-[#6:2]"	3	
+N-Nitrosoamine Reduction	"[#6:2]-[#7;D3:1](-[#6:3])-[#7]=O>>[#7:1](-[#6:3])-[#6:2]"	4	
+Quinone Reduction	"[O:6]=[#6:5]-1-[#6:4]=[#6:3]-[#6:2](=[#7,#8:1])-[#6:8]=[#6:7]-1>>[#8:6]-[c:5]1[c:4][c:3][c:2](-[#7,#8:1])[c:8][c:7]1"	4	
+Isoxazole Cleavage	"[c:3]1[c:2][n:1][o:5][c:4]1>>[#7:1]\[#6:2]=[#6:3]/[#6:4]=[O:5]"	4	
+Dehydration of Geminal Diols	"[OX2H][#6;A:1][OX2H]>>[#6:1]=[O]"	7	
